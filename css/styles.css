@@ -1,0 +1,15 @@
+.results {
+  display: none;
+}
+
+#warning {
+  background-color: yellow;
+}
+
+#danger {
+  background-color: red;
+}
+
+#healthy {
+  background-color: green;
+}

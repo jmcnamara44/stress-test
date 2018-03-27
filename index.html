@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Stress-Test</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 align="center">Stress Test</h1>
+      <form id="stressTest">
+        <p><span class="question">Question 1:</span> Which of the following behaviors have you exhibited in the last month? (Check all that apply)</p>
+        <div class="form-group">
+          <input type="checkbox" name="warning" value="noSleep">Lack of sleep<br>
+          <input type="checkbox" name="warning" value="panic">Panic Attacks<br>
+          <input type="checkbox" name="warning" value="sweat">Sweating<br>
+          <input type="checkbox" name="warning" value="heartrate">Increased Heart Rate<br>
+          <input type="checkbox" name="warning" value="overwhelm">Feeling Overwhelmed<br>
+
+        </div>
+
+        <hr class="my-4">
+
+        <p><span class="question">Question 2:</span> Which of the following health-symptoms have you exhibited in the last month? (Check all that apply)</p>
+        <div class="form-group">
+          <input type="checkbox" name="health" value="blood-pressure">High Blood Pressure<br>
+          <input type="checkbox" name="health" value="anxiety">Anxiety<br>
+          <input type="checkbox" name="health" value="obesity">Obesity<br>
+          <input type="checkbox" name="health" value="vision">Loss of Vision<br>
+          <input type="checkbox" name="health" value="apetite">Loss of Apetite<br>
+          <input type="checkbox" name="health" value="paralysis">Paralysis<br>
+        </div>
+
+        <p><span class="question">Question 3:</span> Which of the following health-symptoms have you exhibited in the last month? (Check all that apply)</p>
+        <div class="form-group">
+          <input type="checkbox" name="relief" value="meditate">Meditation<br>
+          <input type="checkbox" name="relief" value="cat">Pet a Cat<br>
+          <input type="checkbox" name="relief" value="exercise">Exercise<br>
+          <input type="checkbox" name="relief" value="manageTime">Manage Your Time<br>
+          <input type="checkbox" name="relief" value="sleep">Sleep<br>
+          <input type="checkbox" name="relief" value="yoga">Yoga<br>
+        </div>
+
+        <button class="btn btn-primary" type="submit">Submit</button>
+      </form>
+      <div>
+        <p class="results" id="warning">You exhibit many signs for stress-related illness, consider seeing a doctor.</p>
+        <p class="results" id="danger">You are in a high-risk stress category, please see a doctor immeditaley.</p>
+        <p class="results" id="healthy">Good job, you live a healthy lifestyle!</p>
+      </div>
+
+
+    </div>
+  </body>
+</html>
